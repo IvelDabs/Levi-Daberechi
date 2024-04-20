@@ -220,7 +220,7 @@
         background-color: var(--primary-color-2);
         align-content: center;
         padding: 1rem 0;
-        height: 41vh;
+        height: 43vh;
         margin-top: 0.1rem;
         margin-bottom: 0;
     }
@@ -290,9 +290,10 @@
         text-align: center;
     }
     .low-text-para-1 {
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-top: 0.4rem;
         width: 15rem;
+        margin-bottom: 0.1rem;
     }
 
     #about {
