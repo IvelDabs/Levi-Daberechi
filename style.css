@@ -167,12 +167,6 @@ nav a:hover {
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
 }
-/* SECTIONS */
-/* section {
-    padding: 3vh;
-    height: 100vh;
-    min-height: fit-content;
-} */
 .section-container,
 .section__pic-container,
 #profile,
@@ -230,8 +224,8 @@ article,
 }
 
 .low-text-para-1 {
-    color: var(--text-low);
-    font-size: 14px;
+    color: var(--general-color-1);
+    font-size: 18px;
     align-self: last baseline;
     margin: 0 10rem 2rem 0;
     width: 35rem;

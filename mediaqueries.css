@@ -290,10 +290,11 @@
         text-align: center;
     }
     .low-text-para-1 {
-        margin-left: 4rem;
+        margin-left: 0.3rem;
         margin-top: 0.4rem;
-        width: 15rem;
+        width: 22rem;
         margin-bottom: 0.1rem;
+        color: var(--general-color-1);
     }
 
     #about {
@@ -306,7 +307,7 @@
         margin-top: 0;
     }
     #experience {
-        margin-bottom: 40rem;
+        margin-bottom: 25rem;
     }
 
     .about-container {
