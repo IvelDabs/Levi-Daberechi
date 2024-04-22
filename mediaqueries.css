@@ -125,6 +125,11 @@
         text-align: center;
     }
 
+    .heading {
+        color: var(--general-color-3);
+        font-size: 4rem;
+        text-align: center;
+    }
     #projects {
         margin-top: -5rem;
         padding-top: 10rem;
@@ -322,6 +327,11 @@
         margin-bottom: 0.1rem;
         color: var(--general-color-1);
     }
+    .heading {
+        color: var(--general-color-3);
+        font-size: 4rem;
+        text-align: center;
+    }
 
     #about {
         display: flex;
@@ -351,6 +361,7 @@
     .about-container {
         width: 95%;
         margin: 0 0 15px 0;
+        display: block;
     }
 
     article {
