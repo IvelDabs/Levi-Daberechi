@@ -34,6 +34,7 @@
         height: 6rem;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 10rem;
     }
 
     .logo {
@@ -47,17 +48,16 @@
     #contact {
         justify-content: center;
         flex-direction: column;
-        height: 100vh;
+        height: 40vh;
         padding-bottom: 0.5rem;
-        margin-top: 2rem;
-        margin-bottom: -28rem;
-        margin-top: -15rem;
+        margin-bottom: 5rem;
+        margin-top: 38rem;
     }
 
     #experience {
         margin-top: 2rem;
         height: 100vh;
-        margin-bottom: 10rem;
+        margin-bottom: 35rem;
     }
 
     .experience-details-container {
@@ -91,7 +91,7 @@
         justify-content: center;
         height: 100vh;
         margin-bottom: 0;
-        margin-top: 1.3rem;
+        margin-top: 7rem;
     }
 
     .image-div {
@@ -217,7 +217,8 @@
     } */
 
     footer {
-        height: 25rem;
+        height: 10rem;
+        padding: 5rem;
     }
 }
 
@@ -230,9 +231,9 @@
     footer {
         display: flex;
         justify-content: center;
-        height: 5vh;
+        height: 10vh;
         padding: 4rem;
-        margin-top: 41rem;
+        margin-top: 12rem;
     }
 
     .footer-links {
@@ -434,7 +435,7 @@
     #contact {
         justify-content: center;
         flex-direction: column;
-        height: 10vh;
+        height: 5vh;
         padding-bottom: 0.5rem;
         margin-top: 20rem;
     }
