@@ -237,7 +237,7 @@ article,
 .section__text__p1 {
     text-align: center;
     color: var(--general-color-1);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .section__text__p3 {
@@ -435,7 +435,7 @@ article,
     /* background-color: var(--general-color-2); */
     font: 1.7rem;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .experience-details-container {
@@ -447,11 +447,12 @@ article,
 }
 
 .article-container {
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2rem;
+    gap: 4rem;
     justify-content: space-around;
+    padding: 6rem;
     /* background-color: var(--general-color-2); */
     color: var(--general-color-3);
 }
