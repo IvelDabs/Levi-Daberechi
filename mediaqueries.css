@@ -60,6 +60,10 @@
         margin-bottom: 10rem;
     }
 
+    .experience-details-container {
+        margin-top: -7rem;
+    }
+
     .details-container {
         padding: 1rem;
         flex: 1;
@@ -344,8 +348,11 @@
         margin-top: 0;
     }
     #experience {
-        margin-bottom: 24.8rem;
+        margin-bottom: 18rem;
         padding: 0;
+    }
+    .experience-details-container {
+        margin-top: -7rem;
     }
 
     .details-container {
