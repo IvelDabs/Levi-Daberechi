@@ -406,7 +406,7 @@
         flex-direction: column;
         gap: 4rem;
         width: 50%;
-        margin-left: 0.8rem;
+        /* margin-left: 0.8rem; */
     }
 
     .details-container {
@@ -418,7 +418,7 @@
         border-color: var(--button-container-border);
         text-align: center;
         width: fit-content;
-        margin-left: -1rem;
+        margin-left: -4rem;
     }
 
     .article-container {
@@ -430,6 +430,7 @@
         /* align-items: center; */
         padding: 2rem 1rem;
         width: fit-content;
+        /* margin-left: -4rem; */
     }
 
     .about-container {
