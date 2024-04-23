@@ -482,7 +482,8 @@
         grid-template-columns: 1fr;
         background-color: var(--primary-color);
         margin-top: 0;
-        margin-left: 10rem;
+        margin-left: 1rem;
+        padding-left: 6rem;
     }
 
     .about-container {
