@@ -274,8 +274,9 @@ article,
     height: 2rem;
 }
 /* BUTTONS */
-.btn-conatiner {
+.btn-container {
     gap: 1rem;
+    display: none;
 }
 .btn {
     background: var(--button-background);
@@ -287,13 +288,13 @@ article,
 }
 
 .btn-color {
-    margin-top: 2rem;
-}
-
-.btn-color,
-.btn-color:hover {
     border: var(--button-border);
     color: var(--general-color-1);
+    margin-top: 2rem;
+    height: 2rem;
+    width: 9rem;
+    align-content: center;
+    padding: 0.2rem;
 }
 
 .btn-color:hover {
@@ -301,6 +302,14 @@ article,
     background-color: var(--button-text-hover);
     color: var(--primary-color);
     border: var(--button-border-2);
+}
+
+.btn-download {
+    font-size: 1.5rem;
+    background: rgb(53, 52, 52);
+    padding: 0.5rem 1rem;
+    color: var(--general-color-1);
+    font-size: 1rem;
 }
 
 /* About Section */
@@ -505,6 +514,15 @@ article.icon {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+    margin-top: 1rem;
+}
+
+.project-btn:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    border: var(--button-border-2);
+    font-size: 1rem;
+    font-weight: bolder;
 }
 
 .btn-container {

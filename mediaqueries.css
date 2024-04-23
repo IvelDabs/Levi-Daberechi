@@ -220,6 +220,21 @@
         height: 10rem;
         padding: 5rem;
     }
+
+    .btn-container {
+        gap: 1rem;
+        display: initial;
+    }
+
+    .btn-color {
+        border: var(--button-border);
+        color: var(--general-color-1);
+        margin-top: 2rem;
+        height: 4rem;
+        width: 10rem;
+        align-content: center;
+        padding: 1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -377,6 +392,21 @@
     .about-conatiners,
     .btn-container {
         flex-wrap: wrap;
+    }
+
+    .btn-container {
+        gap: 1rem;
+        display: initial;
+    }
+
+    .btn-color {
+        border: var(--button-border);
+        color: var(--general-color-1);
+        margin-top: 2rem;
+        height: 4rem;
+        width: 10rem;
+        align-content: center;
+        padding: 1rem;
     }
 
     .contact-info-upper-container {
