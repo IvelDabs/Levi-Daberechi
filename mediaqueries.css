@@ -87,6 +87,10 @@
         color: var(--general-color-1);
     }
 
+    .sect__text {
+        color: var(--general-color-1);
+        text-align: center;
+    }
     .section-container {
         display: flex;
         flex-direction: column;
