@@ -58,6 +58,11 @@
         margin-top: 38rem;
     }
 
+    .contact-text {
+        color: var(--general-color-1);
+        text-align: center;
+    }
+
     #experience {
         display: grid;
         grid-template-columns: 1fr;
@@ -484,6 +489,11 @@
         max-width: fit-content;
         padding: auto 2rem;
         margin-left: 2rem;
+    }
+
+    .contact-text {
+        color: var(--general-color-1);
+        text-align: center;
     }
 
     .about-project-container {
