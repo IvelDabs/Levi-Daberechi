@@ -312,12 +312,13 @@
     #projects {
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: center;
         gap: 0;
-        margin-top: -15rem;
+        margin-top: -17rem;
         padding: 1rem 1rem 1rem 8rem;
         height: 100vh;
         background-color: var(--primary-color);
-        margin-bottom: 10rem;
+        margin-bottom: 40rem;
         /* margin-left: 3rem; */
     }
 
@@ -412,7 +413,7 @@
     }
 
     .tech-skills {
-        margin-left: 1rem;
+        margin-left: 2.8rem;
     }
 
     .experience-details-container {
