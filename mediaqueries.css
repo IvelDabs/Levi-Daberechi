@@ -288,7 +288,7 @@
         height: 43vh;
         margin-top: 0.1rem;
         margin-bottom: 0;
-        width: 103%;
+        width: 106%;
         margin-left: -1.2rem;
     }
 
@@ -383,7 +383,7 @@
         padding: 1rem 2rem;
         gap: 0;
         margin-top: -8rem;
-        width: 86%;
+        width: 88%;
         margin-left: 0.2rem;
         height: 100vh;
     }
@@ -397,7 +397,7 @@
     }
 
     .tech-skills {
-        margin-left: 1.2rem;
+        margin-left: 1rem;
     }
 
     .experience-details-container {
@@ -515,7 +515,7 @@
         height: 2vh;
         padding: 4rem 4rem 4rem 4rem;
         margin-top: 10rem;
-        width: 70%;
+        width: 75%;
     }
 
     .last-div {
