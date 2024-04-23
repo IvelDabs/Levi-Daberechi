@@ -418,7 +418,7 @@
         border-color: var(--button-container-border);
         text-align: center;
         width: fit-content;
-        margin-left: -6rem;
+        margin-left: -4rem;
     }
 
     .article-container {
@@ -483,6 +483,13 @@
         justify-content: center;
         background-color: var(--primary-color);
         margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .color-container {
+        margin-top: 3rem;
+        /* border-color: var(--button-container-border); */
+        background: var(--general-color-1);
     }
 
     .about-container {
@@ -492,13 +499,6 @@
         border-radius: 2rem;
         text-align: center;
         padding: 0.3rem;
-    }
-
-    .color-container {
-        margin-top: 3rem;
-        /* border-color: var(--button-container-border); */
-        background: var(--general-color-1);
-        margin-left: 0.8rem;
     }
 
     #contact {
