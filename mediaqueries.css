@@ -288,7 +288,7 @@
         height: 43vh;
         margin-top: 0.1rem;
         margin-bottom: 0;
-        width: 106%;
+        width: 105%;
         margin-left: -1.2rem;
     }
 
@@ -356,7 +356,7 @@
     .profile-align {
         display: block;
         text-align: center;
-        margin-left: -1rem;
+        margin-left: 1rem;
     }
 
     #socials-container {
