@@ -390,10 +390,15 @@
     #experience {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 4rem;
+        gap: 2rem;
         margin-top: 2rem;
         margin-bottom: 17rem;
         padding: 0;
+    }
+    .section__text {
+        color: var(--general-color-1);
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     /* .tech-skills {
@@ -581,8 +586,8 @@
 
     .section__text__p1 {
         font-size: 0.8rem;
-        width: 24rem;
-        /* margin-top: 1rem; */
+        width: 22rem;
+        text-align: center;
     }
 
     .title {
