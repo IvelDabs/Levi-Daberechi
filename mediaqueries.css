@@ -499,7 +499,7 @@
         /* border-color: var(--button-container-border); */
         background: var(--general-color-1);
         margin-left: -3rem;
-        padding-left: -1rem;
+        padding-right: 1rem;
     }
 
     #contact {
