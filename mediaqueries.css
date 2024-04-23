@@ -420,7 +420,7 @@
         flex-direction: column;
         gap: 6rem;
         width: 50%;
-        margin-left: 2rem;
+        margin-left: -2rem;
         margin-top: -3rem;
     }
 
@@ -442,7 +442,7 @@
         justify-content: center;
         max-height: fit-content;
         /* align-items: center; */
-        padding: 2rem 0;
+        padding: 1rem 2rem;
         width: fit-content;
     }
 
