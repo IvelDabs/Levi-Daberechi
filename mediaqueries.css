@@ -414,7 +414,7 @@
         flex-direction: column;
         gap: 6rem;
         width: 50%;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         margin-top: -3rem;
     }
 
@@ -427,7 +427,6 @@
         border-color: var(--button-container-border);
         text-align: center;
         width: fit-content;
-        margin-left: -1rem;
     }
 
     .article-container {
@@ -437,7 +436,7 @@
         justify-content: center;
         max-height: fit-content;
         /* align-items: center; */
-        padding: 2rem 1rem;
+        padding: 2rem 0;
         width: fit-content;
     }
 
@@ -503,9 +502,10 @@
     }
 
     .color-container {
-        margin-top: 3rem;
+        margin-top: 2rem;
         /* border-color: var(--button-container-border); */
         background: var(--general-color-1);
+        margin-left: -2rem;
     }
 
     #contact {
