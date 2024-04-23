@@ -59,12 +59,17 @@
     }
 
     #experience {
-        margin-top: 2rem;
-        margin-bottom: 39rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0.5rem;
+        margin-bottom: 10rem;
+        gap: 6rem;
+        justify-content: center;
     }
 
     .experience-details-container {
         margin-top: -7rem;
+        margin-left: 7rem;
     }
 
     .details-container {
@@ -94,7 +99,7 @@
         justify-content: center;
         height: 100vh;
         margin-bottom: 0;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .image-div {
@@ -139,7 +144,7 @@
         text-align: center;
     }
     #projects {
-        margin-top: 5rem;
+        margin-top: 10rem;
         padding-top: 15rem;
         height: 100vh;
         background-color: var(--primary-color);
@@ -169,7 +174,8 @@
         min-width: fit-content;
         padding: 0 5rem 1rem 5rem;
         gap: 0;
-        margin-top: -10rem;
+        margin-top: -12rem;
+        height: 60vh;
     }
 
     .about-container {
@@ -270,7 +276,7 @@
         flex-direction: column;
         justify-content: center;
         height: 68vh;
-        margin-top: 15rem;
+        margin-top: 7rem;
         margin-left: 1.5rem;
         width: 98%;
     }
@@ -357,7 +363,7 @@
         display: none;
     }
     .low-text-para-1 {
-        margin-left: 0.3rem;
+        margin-left: 1.3rem;
         margin-top: 0.4rem;
         width: 22rem;
         margin-bottom: 0.1rem;
@@ -374,11 +380,12 @@
         flex-direction: column;
         justify-content: center;
         min-width: fit-content;
-        padding: 0.1rem 2rem;
+        padding: 1rem 2rem;
         gap: 0;
-        margin-top: 0;
+        margin-top: -6.5rem;
         width: 88.5%;
         margin-left: -0.5rem;
+        height: 100vh;
     }
     #experience {
         display: grid;
@@ -399,7 +406,7 @@
         flex-direction: column;
         gap: 2rem;
         width: 50%;
-        margin-left: 0rem;
+        margin-left: 2.5rem;
     }
 
     .details-container {
@@ -508,7 +515,7 @@
         height: 2vh;
         padding: 4rem 4rem 4rem 4rem;
         margin-top: 10rem;
-        width: 70%;
+        /* width: 70%; */
     }
 
     .last-div {
