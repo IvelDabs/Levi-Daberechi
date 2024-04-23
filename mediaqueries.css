@@ -480,6 +480,7 @@
     .about-project-container {
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: center;
         background-color: var(--primary-color);
         margin-top: 0;
     }
@@ -497,7 +498,7 @@
         margin-top: 3rem;
         /* border-color: var(--button-container-border); */
         background: var(--general-color-1);
-        margin-left: -2rem;
+        margin-left: 0.8rem;
     }
 
     #contact {
