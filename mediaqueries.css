@@ -288,7 +288,7 @@
         height: 43vh;
         margin-top: 0.1rem;
         margin-bottom: 0;
-        width: 105%;
+        width: 104%;
         margin-left: -1.2rem;
     }
 
@@ -406,7 +406,7 @@
         flex-direction: column;
         gap: 4rem;
         width: 50%;
-        margin-left: 2.2rem;
+        margin-left: 2.8rem;
     }
 
     .details-container {
@@ -480,6 +480,7 @@
         grid-template-columns: 1fr;
         background-color: var(--primary-color);
         margin-top: 0;
+        margin-left: 1rem;
     }
 
     .about-container {
