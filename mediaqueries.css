@@ -482,7 +482,6 @@
         grid-template-columns: 1fr;
         background-color: var(--primary-color);
         margin-top: 0;
-        margin-left: 1rem;
     }
 
     .about-container {
@@ -498,7 +497,7 @@
         margin-top: 3rem;
         /* border-color: var(--button-container-border); */
         background: var(--general-color-1);
-        margin-left: -3rem;
+        margin-left: -2rem;
     }
 
     #contact {
