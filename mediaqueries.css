@@ -395,10 +395,9 @@
         margin-bottom: 17rem;
         padding: 0;
     }
-    .section__text {
+    .sect__text {
         color: var(--general-color-1);
-        margin-left: 2rem;
-        margin-top: 2rem;
+        text-align: center;
     }
 
     /* .tech-skills {
@@ -412,6 +411,7 @@
         gap: 6rem;
         width: 50%;
         margin-left: 2.5rem;
+        margin-top: -3rem;
     }
 
     .details-container {
