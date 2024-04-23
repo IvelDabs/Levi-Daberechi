@@ -326,6 +326,7 @@
 
     .section__text__p3 {
         color: var(--general-color-1);
+        text-align: center;
     }
 
     nav {
@@ -409,7 +410,7 @@
     } */
 
     .experience-details-container {
-        padding: 2rem 0;
+        padding: 1rem 0;
         justify-content: center;
         flex-direction: column;
         gap: 6rem;
@@ -482,6 +483,7 @@
         gap: 2rem;
         max-width: fit-content;
         padding: auto 2rem;
+        margin-left: 2.7rem;
     }
 
     .about-project-container {
