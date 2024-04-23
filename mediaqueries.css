@@ -56,8 +56,7 @@
 
     #experience {
         margin-top: 2rem;
-        height: 100vh;
-        margin-bottom: 35rem;
+        margin-bottom: 39rem;
     }
 
     .experience-details-container {
@@ -230,10 +229,17 @@
         border: var(--button-border);
         color: var(--general-color-1);
         margin-top: 2rem;
-        height: 4rem;
+        height: 3rem;
         width: 10rem;
         align-content: center;
         padding: 1rem;
+    }
+
+    .btn-color:hover {
+        cursor: pointer;
+        background-color: var(--button-text-hover);
+        color: var(--primary-color);
+        border: var(--button-border-2);
     }
 }
 
@@ -253,6 +259,7 @@
         justify-content: center;
         height: 68vh;
         margin-top: 12rem;
+        margin-left: 1.5rem;
     }
 
     .image-div {
@@ -352,7 +359,7 @@
         margin-top: 0;
     }
     #experience {
-        margin-bottom: 18rem;
+        margin-bottom: 40rem;
         padding: 0;
     }
     .experience-details-container {
@@ -403,10 +410,16 @@
         border: var(--button-border);
         color: var(--general-color-1);
         margin-top: 2rem;
-        height: 4rem;
+        height: 3rem;
         width: 10rem;
         align-content: center;
         padding: 1rem;
+    }
+    .btn-color:hover {
+        cursor: pointer;
+        background-color: var(--button-text-hover);
+        color: var(--primary-color);
+        border: var(--button-border-2);
     }
 
     .contact-info-upper-container {
@@ -510,11 +523,11 @@
     }
 
     .section__text__p1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin-bottom: 0;
     }
 
