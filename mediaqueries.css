@@ -288,8 +288,8 @@
         height: 43vh;
         margin-top: 0.1rem;
         margin-bottom: 0;
-        width: 102%;
-        margin-left: -1rem;
+        width: 103%;
+        margin-left: -1.2rem;
     }
 
     .container {
@@ -397,7 +397,7 @@
     }
 
     .tech-skills {
-        margin-left: 1.5rem;
+        margin-left: 1.2rem;
     }
 
     .experience-details-container {
@@ -406,7 +406,7 @@
         flex-direction: column;
         gap: 4rem;
         width: 50%;
-        margin-left: 1.5rem;
+        margin-left: 2.2rem;
     }
 
     .details-container {
@@ -515,7 +515,7 @@
         height: 2vh;
         padding: 4rem 4rem 4rem 4rem;
         margin-top: 10rem;
-        /* width: 70%; */
+        width: 70%;
     }
 
     .last-div {
@@ -578,7 +578,9 @@
     }
 
     .section__text__p1 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        width: 24rem;
+        /* margin-top: 1rem; */
     }
 
     .title {
