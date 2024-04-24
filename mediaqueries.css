@@ -421,7 +421,7 @@
 
     .skills-title {
         font-size: 1.4rem;
-        margin-left: -1.5rem;
+        margin-left: -2.5rem;
     }
 
     article {
@@ -439,7 +439,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         padding: 1rem;
-        margin-left: 0;
+        margin-left: 1rem;
         margin-top: 0.5rem 0 10rem 0;
     }
 
@@ -543,7 +543,7 @@
         height: 2vh;
         padding: 4rem 4rem 4rem 4rem;
         margin-top: 10rem;
-        width: 68%;
+        width: 72%;
     }
 
     .last-div {
