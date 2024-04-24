@@ -421,7 +421,7 @@
 
     .skills-title {
         font-size: 1.4rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     article {
@@ -447,7 +447,7 @@
         font-size: 1rem;
         width: fit-content;
         text-align: center;
-        margin-left: 7rem;
+        margin-left: 9rem;
     }
 
     #projects {
@@ -463,11 +463,12 @@
         grid-template-columns: 1fr;
         background-color: var(--primary-color);
         margin-top: 0;
-        padding-left: 0.3rem;
+        padding: 0;
     }
 
     .color-container {
         background: var(--general-color-1);
+        margin-left: 0.5rem;
     }
 
     .about-container {
