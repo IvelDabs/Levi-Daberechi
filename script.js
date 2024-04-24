@@ -2,6 +2,8 @@ document.getElementById("primary").classList.add("primary");
 
 document.getElementById("secondary").classList.add("secondary");
 
+document.getElementById("footer-year").textContent = new Date().getFullYear();
+
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
