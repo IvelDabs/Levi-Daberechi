@@ -70,11 +70,26 @@
         margin-bottom: 10rem;
         gap: 6rem;
         justify-content: center;
+        /* padding: 0 10rem; */
     }
 
     .experience-details-container {
-        margin-top: -7rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 1rem;
         margin-left: 7rem;
+        margin-top: 0.5rem 0 10rem 0;
+    }
+
+    .experience-sub-title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0 -10rem;
+    }
+
+    .skills-title {
+        font-size: 3rem;
     }
 
     .details-container {
@@ -230,10 +245,6 @@
         margin-top: 2rem;
     }
 
-    /* .last-div {
-        margin-left: 1.5rem;
-    } */
-
     footer {
         height: 10rem;
         padding: 2rem;
@@ -267,6 +278,17 @@
         background-color: var(--button-text-hover);
         color: var(--primary-color);
         border: var(--button-border-2);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .experience-details-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 1rem;
+        margin-left: 0;
+        margin: 0.5rem 0 10rem 0;
     }
 }
 
@@ -316,17 +338,6 @@
         left: -40px;
         transition: top 0.5s, left 0.5s;
         width: 250px;
-    }
-
-    #projects {
-        display: flex;
-        gap: 0;
-        margin-top: 1rem;
-        padding: 1rem 1rem;
-        height: 100vh;
-        background-color: var(--primary-color);
-        margin-bottom: 10rem;
-        margin-left: 3rem;
     }
 
     .section__text__p3 {
@@ -400,62 +411,69 @@
     #experience {
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: center;
         gap: 0.5rem;
-        margin-top: 2rem;
-        margin-bottom: 17rem;
-        padding: 0;
+        width: 100%;
+        margin: 2rem 0 17rem 1rem;
+        padding: 2rem 0;
+        height: 80vh;
     }
+
+    .skills-title {
+        font-size: 1.4rem;
+        margin-bottom: 0rem;
+    }
+
+    article {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
     .sect__text {
         color: var(--general-color-1);
         text-align: center;
     }
 
-    /* .tech-skills {
-        margin-left: 0.5rem;
-    } */
-
     .experience-details-container {
-        padding: 1rem 0;
-        justify-content: center;
-        flex-direction: column;
-        gap: 6rem;
-        width: 50%;
-        margin-left: -2rem;
-        margin-top: -3rem;
-    }
-
-    .details-container {
-        padding: 1rem 0;
-        background: var(--general-color-2);
-        color: var(--general-color-1);
-        border-radius: 2rem;
-        border: var(--button-border);
-        border-color: var(--button-container-border);
-        text-align: center;
-        width: fit-content;
-    }
-
-    .article-container {
-        gap: 1rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        max-height: fit-content;
-        /* align-items: center; */
-        padding: 1rem 2rem;
-        width: fit-content;
+        gap: 2rem;
+        padding: 1rem;
+        margin-left: 0;
+        margin-top: 0.5rem 0 10rem 0;
+    }
+
+    .experience-sub-title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    #projects {
+        gap: 0;
+        margin-top: 10rem;
+        padding: 8rem 0;
+        height: 100vh;
+        background-color: var(--primary-color);
+        margin-bottom: 10rem;
+    }
+
+    .about-project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--primary-color);
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .color-container {
+        background: var(--general-color-1);
     }
 
     .about-container {
         width: 95%;
         margin: 0 0 10px 0;
         display: block;
-    }
-
-    article {
-        font-size: 1rem;
-        padding: 0 1rem;
-        text-align: center;
     }
 
     .about-conatiners,
@@ -498,14 +516,6 @@
         text-align: center;
     }
 
-    .about-project-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: var(--primary-color);
-        margin-top: 0;
-        margin-left: 1rem;
-    }
-
     .about-container {
         flex: 1;
         background: var(--primary-color);
@@ -513,13 +523,6 @@
         border-radius: 2rem;
         text-align: center;
         padding: 0.3rem;
-    }
-
-    .color-container {
-        margin-top: 2rem;
-        /* border-color: var(--button-container-border); */
-        background: var(--general-color-1);
-        margin-left: -2rem;
     }
 
     #contact {
@@ -537,12 +540,10 @@
         display: flex;
         justify-content: center;
         background-color: var(--secondary-color-1);
-        /* height: 2vh;
-        padding: 4rem 4rem 10rem 4rem; */
         height: 2vh;
         padding: 4rem 4rem 4rem 4rem;
         margin-top: 10rem;
-        width: 75%;
+        width: 68%;
     }
 
     .last-div {
@@ -562,11 +563,6 @@
         font-size: 0.5rem;
     }
 
-    .experience-sub-title {
-        font-size: 1rem;
-        margin-top: 0.5rem;
-    }
-
     .nav-links {
         flex-direction: column;
         gap: 0.2rem;
@@ -576,7 +572,6 @@
     .nav-links-container {
         position: absolute;
         text-align: center;
-        /* display: none; */
         margin-left: -22rem;
         padding: 0 4rem;
     }
@@ -588,13 +583,6 @@
     .menu-links.open {
         max-height: 300px;
     }
-
-    /* .skills {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-    } */
 
     .section__text__p2 {
         font-size: 1.25rem;

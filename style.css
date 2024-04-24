@@ -85,8 +85,6 @@ nav {
     align-content: center;
     height: 20vh;
     padding-top: 1rem;
-
-    /* background-color: var(--secondary-color-1); */
 }
 .nav-links {
     gap: 1rem;
@@ -148,7 +146,6 @@ nav a:hover {
     background-color: var(--general-color-1);
     width: fit-content;
     max-height: 0;
-    /* overflow: hidden; */
     transition: all 300ms ease;
 }
 .menu-links a {
@@ -260,10 +257,15 @@ article,
     margin-bottom: 0.2rem;
     color: var(--primary-color-2);
 }
-.title {
+.title,
+.skills-title {
     color: var(--primary-color-2);
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
+}
+
+.skills-title {
+    margin-bottom: 0;
 }
 
 .heading {
@@ -340,11 +342,6 @@ article,
     padding: 17rem 5rem;
 }
 
-/* .about-details {
-    display: flex;
-    justify-content: center;
-} */
-
 .about-heading {
     color: var(--general-color-3);
     align-self: flex-end;
@@ -394,17 +391,6 @@ article,
     bottom: 2.5rem;
 }
 
-.details-container {
-    padding: 3rem;
-    flex: 1;
-    background: var(--general-color-2);
-    color: var(--general-color-1);
-    border-radius: 2rem;
-    border: var(--button-border);
-    border-color: var(--button-container-border);
-    text-align: center;
-}
-
 .about-container {
     flex: 1;
     background: var(--primary-color);
@@ -424,17 +410,6 @@ article,
     color: var(--button-background);
 }
 
-/* .skills {
-    color: var(--primary-color);
-    display: flex;
-    flex: 1;
-    gap: 3.5rem;
-    width: 70%;
-    align-self: center;
-    padding: 5rem;
-    height: 100vh;
-} */
-
 .section-container {
     gap: 4rem;
     height: 90%;
@@ -450,41 +425,41 @@ article,
 /* EXPERIENCE SECTION */
 
 #experience {
-    /* position: relative; */
-    margin-top: 15rem;
+    margin-top: 3rem;
     height: 100vh;
     margin-bottom: 10rem;
-    margin-top: 2rem;
     padding: 10rem 0 2rem 0;
 }
 
 .experience-sub-title {
-    color: var(--general-color-3);
-    /* background-color: var(--general-color-2); */
+    color: var(--general-color-1);
     font: 1.7rem;
     font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 .experience-details-container {
-    padding: 0.5rem 0;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: fit-content;
+    padding: 4rem 6rem;
+    gap: 5rem;
     margin-left: 15rem;
+    background: var(--general-color-1);
+    border-radius: 2rem;
 }
 
-.article-container {
+.color-container {
+    margin-top: 3rem;
+    background: var(--general-color-1);
+    padding: 3rem;
+    flex: 1;
+    color: var(--general-color-1);
+    border-radius: 2rem;
+    border: var(--button-border);
+    border-color: var(--button-container-border);
     text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 4rem;
-    justify-content: space-around;
-    padding: 1rem;
-    /* background-color: var(--general-color-2); */
-    color: var(--general-color-3);
 }
 
 article {
@@ -509,12 +484,6 @@ article.icon {
     margin-bottom: 20rem;
     padding: 10rem 0;
     height: 90vh;
-    background: var(--general-color-1);
-}
-
-.color-container {
-    margin-top: 3rem;
-    /* border-color: var(--button-container-border); */
     background: var(--general-color-1);
 }
 
@@ -585,16 +554,17 @@ article.icon {
     color: var(--primary-color);
 }
 
+.contact-text {
+    color: var(--general-color-1);
+    text-align: center;
+}
+
 .contact-info-container a {
     color: var(--general-color-3);
 }
 
 .contact-info-container a:hover {
     color: var(--button-background);
-}
-
-.contact-info-container p {
-    font-size: larger;
 }
 
 .contact-icon {
@@ -612,12 +582,7 @@ footer {
     padding-top: 2rem;
 }
 
-/* footer {
-    background-color: var(--secondary-color-1);
-} */
-
 .footer-links {
-    /* display: flex; */
     display: none;
     gap: 1.5rem;
     list-style: none;
