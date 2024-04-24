@@ -462,7 +462,7 @@
         grid-template-columns: 1fr;
         background-color: var(--primary-color);
         margin-top: 0;
-        padding: 0;
+        padding: 0 -1rem 0 0;
     }
 
     .color-container {
@@ -508,7 +508,7 @@
         gap: 2rem;
         max-width: fit-content;
         padding: auto 2rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 
     .contact-text {
