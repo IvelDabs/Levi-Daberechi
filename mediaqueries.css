@@ -421,7 +421,7 @@
 
     .skills-title {
         font-size: 1.4rem;
-        margin-bottom: 0rem;
+        margin-left: -1.5rem;
     }
 
     article {
@@ -444,9 +444,10 @@
     }
 
     .experience-sub-title {
-        font-size: 1.8rem;
+        font-size: 1rem;
+        width: fit-content;
         text-align: center;
-        margin-bottom: 5rem;
+        margin-left: 5rem;
     }
 
     #projects {
